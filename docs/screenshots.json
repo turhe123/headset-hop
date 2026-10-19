@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The HeadsetHop menu bar popover lists every paired Bluetooth audio device with a connection dot and a favorite star, so one click connects or disconnects it.","alt":"HeadsetHop menu bar popover listing paired Bluetooth devices"},
+  {"file":"02-favorite-hotkey.png","caption":"In Settings, a favorite device gets its own global keyboard shortcut, shown here as Option-Shift-1.","alt":"HeadsetHop Settings with a favorite device and a recorded hotkey"},
+  {"file":"03-settings.png","caption":"The Settings window, with options to switch sound output, disconnect on sleep, show a confirmation toast and launch at login.","alt":"HeadsetHop Settings window with behavior toggles"}
+]

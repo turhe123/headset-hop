@@ -1,5 +1,7 @@
 # HeadsetHop
 
+**🌐 Website:** [turhe123.github.io/headset-hop](https://turhe123.github.io/headset-hop/)
+
 Connect or disconnect your paired Bluetooth headphones and speakers from the menu bar with one click or hotkey.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ HeadsetHop is a free, open-source, 100% native, backend-free alternative to paid
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="HeadsetHop menu bar popover listing paired Bluetooth devices" width="720"></p>
+
+<p align="center"><em>The HeadsetHop menu bar popover lists every paired Bluetooth audio device with a connection dot and a favorite star, so one click connects or disconnects it.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-favorite-hotkey.png" alt="HeadsetHop Settings with a favorite device and a recorded hotkey" width="560"></p>
+
+<p align="center"><em>In Settings, a favorite device gets its own global keyboard shortcut, shown here as Option-Shift-1.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="HeadsetHop Settings window with behavior toggles" width="560"></p>
+
+<p align="center"><em>The Settings window, with options to switch sound output, disconnect on sleep, show a confirmation toast and launch at login.</em></p>
 
 ## Install
 

@@ -1,0 +1,24 @@
+{
+  "seo_title": "Bluetooth headphone switcher for macOS",
+  "seo_description": "HeadsetHop is a free, open-source menu bar app that connects or disconnects your paired Bluetooth headphones and speakers with one click or a global hotkey.",
+  "hero_title_line1": "Your headphones,",
+  "hero_title_accent": "one click away.",
+  "hero_sub": "HeadsetHop lives in the menu bar and connects or disconnects paired Bluetooth headphones and speakers in one click. Give up to five favorites their own global hotkey.",
+  "features_title": "Fewer clicks, faster audio.",
+  "features_sub": "Everything you need to move between devices, and nothing that talks to a server.",
+  "features": [
+    {"icon": "cursor", "title": "One-click connect and disconnect", "desc": "Every paired Bluetooth audio device is listed with a green or grey status dot. Click a row to toggle it, and a failed connect is retried once automatically."},
+    {"icon": "keyboard", "title": "Global hotkey per favorite", "desc": "Star up to five devices and record a shortcut for each in Settings. If a shortcut is already taken, the recorder tells you."},
+    {"icon": "speaker", "title": "Switch sound output for you", "desc": "Optionally set the device as the default output after it connects. HeadsetHop retries for about three seconds while the audio device appears."},
+    {"icon": "clock", "title": "Disconnect on sleep", "desc": "Optionally release your devices when the Mac goes to sleep, so they are free to connect to your phone or another Mac."},
+    {"icon": "bell", "title": "Confirmation toast", "desc": "A brief on-screen message confirms whether a connection succeeded or failed. It is on by default and can be turned off."},
+    {"icon": "sliders", "title": "Stays in sync", "desc": "The list updates on Bluetooth connect and disconnect events, every 15 seconds, and whenever you open the menu. Devices are tracked by hardware address, so renaming one keeps its hotkey."}
+  ],
+  "permissions_step": "When prompted, allow Bluetooth access, or enable it later in System Settings > Privacy & Security > Bluetooth; if you turn on Launch at login, you may also approve it in General > Login Items.",
+  "faq": [
+    {"q": "Is HeadsetHop really free and open source?", "a": "Yes. It is released under the MIT license, has no accounts, no servers and no analytics, and the full source is on GitHub. If it saves you time, you can optionally support development through the Ko-fi button in the app."},
+    {"q": "What permissions does it need?", "a": "Bluetooth, so it can list, connect and disconnect your paired devices. Launch at login may ask for approval in Login Items. It does not request Accessibility, Screen Recording or Microphone access, and its global hotkeys need no special permission."},
+    {"q": "Where is my data stored?", "a": "Only on your Mac, in the app's standard UserDefaults preferences. That includes your favorites, their hotkeys and your settings. Nothing is sent anywhere; the app talks only to your Mac's Bluetooth stack."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and HeadsetHop is a free project. Right-click the app and choose Open once to launch it, or build it from source with Xcode."}
+  ]
+}
